@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <com.google.android.material.textview.MaterialTextView
+     android:id="@+id/choosecolor"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginStart="15dp"
+     android:layout_marginEnd="15dp"
+     android:gravity="center"
+     android:text="Choose Favourite Color"
+     android:textSize="18sp"
+     app:fontFamily="@font/opensans_medium" />
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <com.google.android.material.button.MaterialButton
+        android:id="@+id/next_oobe_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/letsgo"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        app:icon="@drawable/ic_next" />
+
+<com.google.android.material.button.MaterialButton
+        android:id="@+id/oobe_back_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"
+        android:text="@string/back"
+        app:icon="@drawable/ic_back" />
+</FrameLayout>
+</LinearLayout>

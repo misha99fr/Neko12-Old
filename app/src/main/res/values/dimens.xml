@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="neko_display_size">84dp</dimen>
+    <dimen name="tile_width">172dp</dimen>
+    <dimen name="tile_height">110dp</dimen>
+    <dimen name="bottomsheet">800dp</dimen>
+</resources>

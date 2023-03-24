@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:behavior_hideable="true"
+    app:backgroundTint="?attr/colorPrimary"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:id="@+id/draghandle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+   <ImageView
+        android:id="@+id/cat_icon"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+		android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="24dp"/>
+		
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/catname"
+        android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"/>	
+
+    <ImageView
+        android:id="@+id/rename_sheet"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:src="@drawable/ic_rename" />
+		
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/title_rename"
+        android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="170dp"
+        android:layout_height="wrap_content"
+		android:text="@string/rename_title"/>
+		
+    <ImageView
+        android:id="@+id/delete_sheet"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="128dp"
+        android:src="@drawable/ic_delete" />
+		
+     <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/title_del"
+        android:layout_width="wrap_content"
+		android:layout_marginTop="170dp"
+        android:layout_height="wrap_content"
+		android:layout_marginStart="5dp"
+		android:layout_alignParentLeft="true"
+		android:text="@string/del_title"/>
+    <ImageView
+        android:id="@+id/save_sheet"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="128dp"
+        android:src="@drawable/ic_save" />
+		
+	<com.google.android.material.textview.MaterialTextView
+        android:id="@+id/title_save"
+        android:layout_width="wrap_content"
+		android:layout_marginTop="170dp"
+		android:layout_marginEnd="5dp"
+        android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:text="@string/save_title"/>
+		
+	<com.google.android.material.textview.MaterialTextView
+        android:id="@+id/status_title"
+        android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="220dp"
+        android:layout_height="wrap_content"/>	
+</RelativeLayout>

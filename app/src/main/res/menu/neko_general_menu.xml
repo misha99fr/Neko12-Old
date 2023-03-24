@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="ifRoom"
+        android:id="@+id/settingsMenuId"  />
+
+    <item
+        android:id="@+id/checkUpdateId"
+        android:icon="@drawable/ic_updates"
+        android:title="@string/check_updates" />
+    <item 
+	    android:title="@string/achievements"
+        android:icon="@drawable/ic_game"
+        android:id="@+id/achievementsMenuId"  />
+    <item
+        android:id="@+id/promoMenuId"
+        android:enabled="false"
+        android:icon="@drawable/key"
+        android:title="@string/promo"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/helpMenuId"
+        android:icon="@drawable/ic_help"
+        android:title="About Neko 12" />
+
+    <item
+        android:id="@+id/aboutMenuId"
+        android:icon="@drawable/ic_11"
+        android:title="Broken"
+        android:visible="false" />
+</menu>

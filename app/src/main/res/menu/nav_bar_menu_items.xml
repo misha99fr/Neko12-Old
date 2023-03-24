@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/collection"
+            android:enabled="true"
+            android:title="@string/collection"
+            android:icon="@drawable/ic_fullcat_icon"/>
+        <item
+            android:id="@+id/controls"
+            android:enabled="true"
+            android:title="@string/cat_controls"
+            android:icon="@drawable/ic_bowl" />
+</menu>

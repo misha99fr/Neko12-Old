@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_bowl"
+        android:shortcutId="static"
+        android:shortcutLongLabel="@string/cat_controls"
+        android:shortcutShortLabel="@string/cat_controls">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="ru.dimon6018.neko11.ui.fragments.CatControlsFragment"
+            android:targetPackage="ru.dimon6018.neko11.ui.fragments" />
+    </shortcut>
+</shortcuts>

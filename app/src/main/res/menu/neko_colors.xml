@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+	    android:title="@string/pink"
+        android:id="@+id/pink_theme"  />
+
+    <item
+        android:id="@+id/red_theme"
+        android:title="@string/red" />
+
+    <item
+        android:id="@+id/orange_theme"
+        android:title="@string/orange"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/green_theme"
+        android:title="@string/green"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/lime_theme"
+        android:title="@string/lime"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/aqua_theme"
+        android:title="@string/aqua"
+        android:visible="false" />
+		
+	<item
+        android:id="@+id/blue_theme"
+        android:title="@string/blue" />
+		
+	<item
+        android:id="@+id/purple_theme"
+        android:title="@string/purple" />
+</menu>
